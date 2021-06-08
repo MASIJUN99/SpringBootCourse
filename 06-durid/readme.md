@@ -1,0 +1,5 @@
+# Druid引入的主要意义是可以自定义配置数据库的很多内容
+
+这里我就给一个配置的例子，仅仅是例子，即原有的DataSource换成了Druid的DataSource
+
+在config中配置了druid的后台监控   

@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    username: masijun
+    password: 19971003
+    url: jdbc:mysql://localhost:3306/jdbc_test?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver

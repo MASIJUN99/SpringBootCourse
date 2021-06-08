@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/02-Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/../03-porperties-file/pom.xml" />
+        <option value="$PROJECT_DIR$/03-porperties-file/pom.xml" />
+        <option value="$PROJECT_DIR$/05-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/04-simple-system/pom.xml" />
+        <option value="$PROJECT_DIR$/06-durid/pom.xml" />
+        <option value="$PROJECT_DIR$/07-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/07-spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/08-spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/09-shrio/pom.xml" />
+        <option value="$PROJECT_DIR$/09-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/10-shiro-springboot/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/02-configuration/01-configuration-static/pom.xml" />
+        <option value="$PROJECT_DIR$/08-spring-security/09-shiro/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

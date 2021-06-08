@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<div th:insert="commons/commons::head"></div>
+<body>
+
+<!-- 如果未登录 -->
+<div sec:authorize="not isAuthenticated()">
+    <h1 class="title">
+        <a class="title" th:href="@{/toLogin}">登录</a>
+    </h1>
+</div>
+<!-- 如果登录 -->
+<div sec:authorize="isAuthenticated()">
+    <h1 class="title">
+        <a class="title" th:href="@{/logout}">注销</a>
+        用户名<span sec:authentication="name"></span>
+        角色<span sec:authentication="authorities"></span>
+    </h1>
+</div>
+
+    <table class="table table-hover">
+        <thead>
+            <td>
+                组1
+            </td>
+            <td>
+                组2
+            </td>
+            <td>
+                组3
+            </td>
+        </thead>
+        <tbody>
+            <td>
+                <a th:href="@{/1/1}">1.1</a>
+            </td>
+
+            <td>
+                <a th:href="@{/2/1}">2.1</a>
+            </td>
+            <td>
+                <a th:href="@{/3/1}">3.1</a>
+            </td>
+        </tbody>
+        <tbody>
+            <td>
+                <a th:href="@{/1/2}">1.2</a>
+            </td>
+            <td>
+                <a th:href="@{/2/2}">2.2</a>
+            </td>
+            <td>
+                <a th:href="@{/3/2}">3.2</a>
+            </td>
+        </tbody>
+        <tbody>
+            <td>
+                <a th:href="@{/1/3}">1.3</a>
+            </td>
+            <td>
+                <a th:href="@{/2/3}">2.3</a>
+            </td>
+            <td>
+                <a th:href="@{/3/3}">3.3</a>
+            </td>
+        </tbody>
+    </table>
+
+    <p sec:authorize="not hasAnyRole('vip1', 'vip2', 'vip3')">非vip看</p>
+    <p sec:authorize="hasAnyRole('vip1', 'vip2', 'vip3')">vip才能看到</p>
+    <p sec:authorize="hasRole('vip1')">vip1才能看到</p>
+    <p sec:authorize="hasRole('vip2')">vip2才能看到</p>
+    <p sec:authorize="hasRole('vip3')">vip3才能看到</p>
+
+
+    <div th:insert="commons/commons::foot"></div>
+</body>
+
+</html>

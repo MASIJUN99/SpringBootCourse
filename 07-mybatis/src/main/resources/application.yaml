@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: 19971003
+    url: jdbc:mysql://localhost:3306/mybatis_test?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+# 整合mybatis
+mybatis:
+  type-aliases-package: com.example.pojo
+  mapper-locations:
+    - classpath:mybatis/mapper/*.xml

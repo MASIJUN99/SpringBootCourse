@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-helloworld/01-helloworld.iml" filepath="$PROJECT_DIR$/01-helloworld/01-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-configuration/02-configuration.iml" filepath="$PROJECT_DIR$/02-configuration/02-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-porperties-file/03-porperties-file.iml" filepath="$PROJECT_DIR$/03-porperties-file/03-porperties-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-simple-system/04-simple-system.iml" filepath="$PROJECT_DIR$/04-simple-system/04-simple-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-jdbc/05-jdbc.iml" filepath="$PROJECT_DIR$/05-jdbc/05-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-durid/06-durid.iml" filepath="$PROJECT_DIR$/06-durid/06-durid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-mybatis/07-mybatis.iml" filepath="$PROJECT_DIR$/07-mybatis/07-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-spring-security/08-spring-security.iml" filepath="$PROJECT_DIR$/08-spring-security/08-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-shiro/09-shiro.iml" filepath="$PROJECT_DIR$/09-shiro/09-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-shiro-springboot/10-shiro-springboot.iml" filepath="$PROJECT_DIR$/10-shiro-springboot/10-shiro-springboot.iml" />
+    </modules>
+  </component>
+</project>
