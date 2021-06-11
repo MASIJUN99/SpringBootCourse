@@ -13,5 +13,12 @@
     <file url="file://$PROJECT_DIR$/08-spring-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-spring-security/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/10-shiro-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-asynchronous/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-spring-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-tiktoc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-Dubbo-Zookeeper/16-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-Dubbo-Zookeeper/16-provider/src/main/java" charset="UTF-8" />
   </component>
 </project>

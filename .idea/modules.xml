@@ -12,6 +12,13 @@
       <module fileurl="file://$PROJECT_DIR$/08-spring-security/08-spring-security.iml" filepath="$PROJECT_DIR$/08-spring-security/08-spring-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-shiro/09-shiro.iml" filepath="$PROJECT_DIR$/09-shiro/09-shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-shiro-springboot/10-shiro-springboot.iml" filepath="$PROJECT_DIR$/10-shiro-springboot/10-shiro-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-swagger/11-swagger.iml" filepath="$PROJECT_DIR$/11-swagger/11-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-asynchronous/12-asynchronous.iml" filepath="$PROJECT_DIR$/12-asynchronous/12-asynchronous.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-spring-mail/13-spring-mail.iml" filepath="$PROJECT_DIR$/13-spring-mail/13-spring-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-tiktoc/14-tiktoc.iml" filepath="$PROJECT_DIR$/14-tiktoc/14-tiktoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-redis/15-redis.iml" filepath="$PROJECT_DIR$/15-redis/15-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-Dubbo-Zookeeper/16-consumer/16-consumer.iml" filepath="$PROJECT_DIR$/16-Dubbo-Zookeeper/16-consumer/16-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-Dubbo-Zookeeper/16-provider/16-provider.iml" filepath="$PROJECT_DIR$/16-Dubbo-Zookeeper/16-provider/16-provider.iml" />
     </modules>
   </component>
 </project>

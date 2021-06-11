@@ -1,0 +1,10 @@
+# Spring的所有配置类都有一个XxxxAutoConfiguration
+# 更进一步，都会绑定一个XxxxProperties文件
+# 配置Redis
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    # 也可以配置集群
+    # 也可以配置连接池 默认都是lettuce

@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+
+
+dubbo:
+  application:
+    name: consumer-server  # 暴露自己的名字
+  registry:
+    address: zookeeper://127.0.0.1:2181  # 注册中心的名字

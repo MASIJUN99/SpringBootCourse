@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+# Dubbo配置
+
+
+
+dubbo:
+  application:
+    name: provider-server  # 服务应用名称
+  registry:
+    address: zookeeper://127.0.0.1:2181  # 注册中心地址
+  scan:
+    base-packages: com.example.demo.service  # 哪些服务要被注册

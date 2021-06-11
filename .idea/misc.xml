@@ -16,6 +16,16 @@
         <option value="$PROJECT_DIR$/09-shrio/pom.xml" />
         <option value="$PROJECT_DIR$/09-shiro/pom.xml" />
         <option value="$PROJECT_DIR$/10-shiro-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/11-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/12-asynchronous/pom.xml" />
+        <option value="$PROJECT_DIR$/13-spring-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/14-tiktoc/pom.xml" />
+        <option value="$PROJECT_DIR$/15-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/16-Dubbo-Zookeeper/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/16-Dubbo-Zookeeper/comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/16-Dubbo-Zookeeper/16-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/16-Dubbo-Zookeeper/16-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/16-Dubbo-Zookeeper/16-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
